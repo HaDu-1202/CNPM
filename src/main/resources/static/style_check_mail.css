@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.wireframe4 {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background-color: white;
+}
+
+.rectangle1 {
+    width: 513px;
+    height: 599px;
+    position: absolute;
+    left: 463px;
+    top: 212px;
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.check-your-email {
+    position: absolute;
+    left: 589px;
+    top: 323px;
+    color: #247BA0;
+    font-size: 32px;
+}
+
+.email-instructions {
+    width: 358px;
+    position: absolute;
+    left: 542px;
+    top: 400px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 18px;
+}
+
+.ellipse1 {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 493px;
+    top: 245px;
+    
+}
+
+.vector {
+    width: 26px;
+    height: 14px;
+    position: absolute;
+    left: 523px;
+    top: 267px;
+}
+.code-input{
+    width: 60px;
+    height: 70px;
+    background-color: white;
+    border-color: w;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.component2 {
+    width: 370px;
+    height: 175px;
+    position: absolute;
+    left: 535px;
+    top: 469px;
+}
+
+.rectangle31,
+.rectangle32,
+.rectangle33,
+.rectangle34,
+.rectangle35 {
+    width: 60px;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: absolute;
+}
+
+.rectangle31 {
+    left: 5px;
+}
+
+.rectangle32 {
+    left: 80px;
+}
+
+.rectangle33 {
+    left: 155px;
+}
+
+.rectangle34 {
+    left: 230px;
+}
+
+.rectangle35 {
+    left: 305px;
+}
+
+.group32 {
+    width: 370px;
+    height: 50px;
+    position: absolute;
+    top: 125px;
+}
+
+.rectangle36 {
+    width: 370px;
+    height: 50px;
+    background-color: rgba(36, 123, 160, 0.70);
+    border-radius: 10px;
+}
+
+.verify-code {
+    position: absolute;
+    left: 135px;
+    top: 14px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+}
+
+.haven-t-got-email {
+    width: 301px;
+    height: 19px;
+    position: absolute;
+    left: 565px;
+    top: 682px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.resent-email {
+    color: #247BA0;
+}

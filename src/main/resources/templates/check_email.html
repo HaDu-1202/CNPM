@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your Email</title>
+    <link rel="stylesheet" href="style_check_mail.css">
+</head>
+
+<body>
+    <div class="wireframe4">
+        <div class="rectangle1"></div>
+
+        <div class="check-your-email">Check your email</div>
+
+        <div class="email-instructions">
+            We sent a reset link to your email <br />enter the 5-digit code mentioned in the email
+        </div>
+
+        <a href="/forgot_pass/forgot_password.html" class="back-to-login">
+            <div class="ellipse1"><img src="/image/Ellipse 1.png" alt="Ellipse"></div>
+            <div class="vector"><img src="/image/Vector.png" alt="vector"></div>
+        </a>
+
+        <div class="component2">
+            <div class="rectangle31"><input type="text" class="code-input" maxlength="1" oninput="moveToNext(this, 'code2')" id="code1"/></div>
+            <div class="rectangle32"><input type="text" class="code-input" maxlength="1" oninput="moveToNext(this, 'code3')" id="code2"/></div>
+            <div class="rectangle33"><input type="text" class="code-input" maxlength="1" oninput="moveToNext(this, 'code4')" id="code3"/></div>
+            <div class="rectangle34"><input type="text" class="code-input" maxlength="1" oninput="moveToNext(this, 'code5')" id="code4"/></div>
+            <div class="rectangle35"><input type="text" class="code-input" maxlength="1" id="code5"/></div>
+            <div class="group32">
+                <div class="rectangle36"></div>
+                <a href="/set_new_password/set_new_password.html">
+                    <div class="verify-code">Verify code</div>
+                </a>
+                
+            </div>
+        </div>
+
+        <div class="haven-t-got-email">
+            <span>Haven’t got the email yet? </span>
+            <span class="resent-email">Resent email</span>
+        </div>
+
+    </div>
+    <script>
+        function moveToNext(current, nextFieldID) {
+            if (current.value.length === current.maxLength) {
+                document.getElementById(nextFieldID).focus();
+            }
+        }
+    </script>
+</body>
+
+</html>

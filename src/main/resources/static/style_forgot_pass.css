@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.wireframe3 {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background-color: white;
+}
+
+.rectangle1 {
+    width: 513px;
+    height: 599px;
+    position: absolute;
+    left: 463px;
+    top: 212px;
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.forgot-your-password {
+    position: absolute;
+    left: 552px;
+    top: 363px;
+    color: #247BA0;
+    font-size: 32px;
+}
+
+.reset-instructions {
+    width: 358px;
+    position: absolute;
+    left: 541px;
+    top: 459px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 18px;
+}
+
+.group21 {
+    width: 370px;
+    height: 50px;
+    position: absolute;
+    left: 535px;
+    top: 511px;
+}
+
+.rectangle24 {
+    width: 370px;
+    height: 50px;
+    background-color: #D9D9D9;
+    opacity: 0.5;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.email-address {
+    position: absolute;
+    left: 19.29px;
+    top: 16px;
+    font-size: 15px;
+    color: #1E1E1E;
+    opacity: 0.5;
+}
+
+.group26 {
+    width: 370px;
+    height: 50px;
+    position: absolute;
+    left: 535px;
+    top: 611px;
+}
+
+.rectangle30 {
+    width: 370px;
+    height: 50px;
+    background-color: #247BA0;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.reset-password {
+    position: absolute;
+    left: 121px;
+    top: 14px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.input-field{
+    width: 370px;
+    height: 50px;
+    background-color: #D9D9D9;
+    opacity: 0.5;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 15px;
+    padding: 25px;
+}
+.ellipse1 {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 493px;
+    top: 245px;
+    
+}
+
+.vector {
+    width: 26px;
+    height: 14px;
+    position: absolute;
+    left: 523px;
+    top: 267px;
+}
